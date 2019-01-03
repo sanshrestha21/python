@@ -1,5 +1,9 @@
-text="welcame"
-pattern="welcome"
+text=raw_input("Enter Text: ")
+
+pattern=raw_input("Enter Pattern: ")
+
+text=text.lower()
+pattern=pattern.lower()
 
 tlen=len(text)
 plen=len(pattern)
